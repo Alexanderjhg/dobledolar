@@ -127,6 +127,7 @@ export default {
         {to:'/' ,text:'Casa'},
         {to:'/comisiones-y-pagos' ,text:'Comisiones y pagos'},
         {to:'/terminos-y-condiciones' ,text:'Terminos y condiciones'},
+        {to:'/politica-de-cookies' ,text:'Politica de cookies'},
       ],
       rutas:'',
     }

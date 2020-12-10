@@ -102,9 +102,7 @@
                   contain
                   class="grey darken-4"
                 ></v-img>
-                <v-card-title class="title">
-                  max-height with contain
-                </v-card-title>
+
               </v-card>
             </div>
             </v-flex>
@@ -117,9 +115,7 @@
                   contain
                   class="grey darken-4"
                 ></v-img>
-                <v-card-title class="title">
-                  max-height with contain
-                </v-card-title>
+
               </v-card>
             </div>
             </v-flex>
@@ -132,9 +128,7 @@
                   contain
                   class="grey darken-4"
                 ></v-img>
-                <v-card-title class="title">
-                  max-height with contain
-                </v-card-title>
+
               </v-card>
             </div>
             </v-flex>
@@ -147,9 +141,7 @@
                   contain
                   class="grey darken-4"
                 ></v-img>
-                <v-card-title class="title">
-                  max-height with contain
-                </v-card-title>
+
               </v-card>
             </div>
             </v-flex>
@@ -162,9 +154,7 @@
                   contain
                   class="grey darken-4"
                 ></v-img>
-                <v-card-title class="title">
-                  max-height with contain
-                </v-card-title>
+
               </v-card>
             </div>
             </v-flex>

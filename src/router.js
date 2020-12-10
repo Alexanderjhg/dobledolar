@@ -23,6 +23,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/terminos-y-condiciones/terminos-y-condiciones.vue'),
     },
     {
+      path: '/politica-de-cookies',
+      name: 'cookies',
+      component: () => import(/* webpackChunkName: "about" */ './views/politica-de-cookies/index.vue'),
+    },
+    {
       path: '/registro/:id',
       name: 'registro',
       component: () => import(/* webpackChunkName: "about" */ './views/registro/registro.vue'),

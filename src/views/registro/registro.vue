@@ -81,7 +81,8 @@
                     <v-flex xs12>
                         <div class="text-xs-right">
                             <small class="pa-1 warning" v-if="this.$store.state.coreoExisente">Este correo ya esta en uso.</small>
-                            <small class="pa-1 black--text">Al registrarte aceptas los <router-link to="/terminos-y-condiciones" class="black--text">Terminos y condiciones</router-link>.</small>
+                            <small class="pa-1 black--text">Al registrarte aceptas los <router-link to="/terminos-y-condiciones" class="black--text">Terminos y condiciones</router-link>. <br>
+                            y las <router-link to="/politica-de-cookies" class="black--text">Politica de cookies</router-link></small>
                             <v-btn color="info" @click="anadirUsuario()" small><span class="em8">Registrar</span></v-btn>
                         </div>
                     </v-flex>

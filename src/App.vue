@@ -58,6 +58,7 @@
       <v-toolbar-items class="hidden-sm-and-down ">
         <v-btn small flat color="grey" class="em8" to="/">Casa</v-btn>
         <v-btn small flat color="grey" class="em8" to="/comisiones-y-pagos">Comisiones y pagos</v-btn>
+        <v-btn small flat color="grey" class="em8" to="/blog/">Blog</v-btn>
         <v-btn small flat color="info" class="em8" to="/pack/" v-if="this.activo">Mi cuenta</v-btn>
         <v-btn small flat color="grey" class="em8"  v-if="!this.activo" to="/entrar">Login</v-btn>
       </v-toolbar-items>
@@ -68,6 +69,9 @@
 
         <v-btn icon small>
             <router-link to="/comisiones-y-pagos" class="grey--text"><i class="fa fa-list-ol grey--text"></i></router-link>
+          </v-btn>
+          <v-btn flat small round>
+            <router-link to="/blog" class="grey--text">Blog</router-link>
           </v-btn>
 
         <v-btn icon small  v-if="this.activo" @click="$store.dispatch('salir')">
@@ -128,6 +132,7 @@ export default {
         {to:'/comisiones-y-pagos' ,text:'Comisiones y pagos'},
         {to:'/terminos-y-condiciones' ,text:'Terminos y condiciones'},
         {to:'/politica-de-cookies' ,text:'Politica de cookies'},
+        {to:'/blog' ,text:'Blog'},
       ],
       rutas:'',
     }

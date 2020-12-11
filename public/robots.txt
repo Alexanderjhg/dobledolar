@@ -1,2 +1,8 @@
 User-agent: *
-Disallow:
+Disallow: /politica-de-cookies/
+Disallow: /paypal-chekout/
+Disallow: /pack/
+Disallow: /pack/mis-pagos/
+Disallow: /pack/videos/
+Allow: /sitemap.xml
+

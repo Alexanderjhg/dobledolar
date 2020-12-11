@@ -149,6 +149,18 @@
       
     </div>
   </template>
+  <script>
+  export default {
+    metaInfo: {
+      title: 'My Example App',
+      titleTemplate: '%s - Yay!',
+      htmlAttrs: {
+        lang: 'en',
+        amp: true
+      }
+    }
+  }
+</script> 
   <style>
   
     .text-black{

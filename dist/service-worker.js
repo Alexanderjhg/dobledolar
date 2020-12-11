@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.db6ca22814d5f79097e23ac8c61f62dd.js"
+  "/precache-manifest.cc56ed072468124269e76e1125f6d601.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "Dobledolar"});

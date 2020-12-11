@@ -296,13 +296,46 @@
             <v-btn color="info" outline small class="em9" to="/entrar/">Aprender</v-btn>
           </div>
         </v-flex>
-
-
       </v-layout>
-    </v-container>
 
+      <v-divider></v-divider>
+
+      <v-layout row wrap class="justify-center">
+        <v-flex xs12 sm10 md10 lg10 class="my-3 text-xs-center">
+          <h2>Visita nuestro blog</h2>
+        </v-flex>
+        <v-flex xs12 sm5 md3 lg3 px-2 pb-3>
+          <div class="white py-2">
+
+            <v-layout row wrap justify-center>
+              <div class="info icon-card elevation-4 my-1 title">
+                <i class="fas fa-cogs white--text"></i>
+              </div>
+            </v-layout>
+            <v-layout row wrap justify-center>
+              <div>
+                <span class="subheading font-weight-medium">Mira nuestro blog</span>
+              </div>
+            </v-layout>
+            <div class="py-1 px-2 text-xs-center">
+              <p class="caption grey--text">Mira los articulos de nuestro blog, aprende de que trata esta plataforma y descubre mas temas recomendados.</p>
+            </div>
+            <v-btn color="info" outline small class="em9" to="/blog/">Ir</v-btn>
+          </div>
+        </v-flex>
+      </v-layout>
+
+    </v-container>
   </div>
 </template>
+<script>
+  import Menu from "@/components/blog/menu"
+  export default {
+    components:{
+      Menu
+    } 
+  }
+</script> 
 <style>
   .text-black {
     color: black

@@ -4,7 +4,7 @@ import Vuetify , {
   VNavigationDrawer,
   VFooter,
   VToolbar,
-  transitions
+  transitions,
 } from 'vuetify/lib'
 
 import 'vuetify/src/stylus/app.styl'

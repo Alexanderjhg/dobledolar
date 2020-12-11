@@ -13,6 +13,11 @@ export default new Router({
       component: Home,
     },
     {
+      path: '/contacto/',
+      name: 'contacto',
+      component: () => import(/* webpackChunkName: "about" */ './views/contacto/index.vue'),
+    },
+    {
       path: '/comisiones-y-pagos',
       name: 'comisiones',
       component: () => import(/* webpackChunkName: "about" */ './views/comisiones-y-pagos/comisiones-y-pagos.vue'),
@@ -58,11 +63,46 @@ export default new Router({
           component: () => import(/* webpackChunkName: "about" */ './views/mis-pagos/mis-pagos.vue'),
         },
         {
-          path: '/pack/videos',
+          path: '/pack/videos/',
           name: 'video',
           component: () => import(/* webpackChunkName: "about" */ './views/videos/video.vue'),
         },
       ]
+    },
+    {
+      path: '',
+      name: 'blog',
+      component: () => import(/* webpackChunkName: "about" */ './views/blog/index.vue'),
+      children: [
+        {
+          path:'/blog/',
+          component: () => import(/* webpackChunkName: "about" */ './views/blog/rutas.vue'),
+        },
+        {
+          path:'/blog/ganar-dinero-por-internet/',
+          component: () => import(/* webpackChunkName: "about" */ './views/blog/dinero-internet.vue'),
+        },
+        {
+          path:'/blog/clipclaps/',
+          component: () => import(/* webpackChunkName: "about" */ './views/blog/clipclaps.vue'),
+        },
+        {
+          path:'/blog/detectar-estafadores/',
+          component: () => import(/* webpackChunkName: "about" */ './views/blog/ganar-con-google.vue'),
+        },
+        {
+          path:'/blog/mas-referidos/',
+          component: () => import(/* webpackChunkName: "about" */ './views/blog/mas-referidos.vue'),
+        },
+        {
+          path:'/blog/mi-opinion-sobre-las-criptomonedas/',
+          component: () => import(/* webpackChunkName: "about" */ './views/blog/mi-opinion-sobre-las-criptomonedas.vue'),
+        },
+        {
+          path:'/blog/como-funciona-dobledolar/',
+          component: () => import(/* webpackChunkName: "about" */ './views/blog/como-funciona-dobledolar.vue'),
+        }
+      ],
     },
   ],
 });
